@@ -105,7 +105,7 @@ function App() {
                 <div>
                   <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-6">Technical Skills</h3>
                   <div className="flex flex-wrap gap-3">
-                    {parsedData.skills?.map((skill: str, idx: number) => (
+                    {parsedData.skills?.map((skill: string, idx: number) => (
                       <span key={idx} className="px-3 py-1.5 bg-blue-50 text-blue-700 rounded-full text-sm font-medium border border-blue-100">
                         {skill}
                       </span>
